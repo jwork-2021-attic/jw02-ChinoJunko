@@ -1,0 +1,90 @@
+@startuml characters
+
+class Scene{
+    main()
+}
+
+class Snake{
+    Snake theSnake
+    getTheSnake()
+    Sorter sorter
+    setSorter()
+    lineup()
+    parsePlan()
+   execute()
+}
+
+interface Linable{
+    setPosition()
+    getPosition()
+    getValue()
+}
+
+enum Monster{
+    int r,g,b
+    Position position
+    getMonsterByRank()
+    rank()
+    toString()
+    swapPosition()
+}
+
+interface Sorter{
+    load()
+    sort()
+    getPlan()
+}
+
+class BubbleSorter{
+    int[] a
+    swap()
+    String plan
+}
+
+class QuickSorter{
+    int[] a
+    swap()
+    String plan
+    quickSort()
+    partition()
+}
+
+class ShellSorter{
+    int[] a
+    swap()
+    String plan
+}
+
+class Line {
+    Position[] positions
+    put()
+    get()
+    toString()
+    toArray
+}
+
+class Matrix{
+    toString()
+}
+
+class Position{
+    Linable linable
+    setLinable()
+}
+
+
+Sorter --|>BubbleSorter
+Sorter --|>QuickSorter
+Sorter --|>ShellSorter
+
+Linable --|> Gourd
+
+Line --|> Matrix
+
+Line *-- Position
+
+Gourd o-- Position
+
+Sorter --o Geezer
+
+@enduml

@@ -35,4 +35,16 @@
 
 ---
 ### 可视化结果展示链接
-https://www.bilibili.com/video/BV12u411f7j1
+https://www.bilibili.com/video/BV12u411f7j1?p=1
+
+---
+# 任务三
+### 添加了Line的扩展类Matrix,里面仅对toString函数做了一些修改（理论上可以直接修改Line以达到最小修改程度，但不符合设计理念），使Scene中的'-m'参数可以真正创建矩阵了。
+
+---
+### 类图
+![](http://www.plantuml.com/plantuml/png/dL9DJoCn3BtdL_Yuk-hyXLNffHSg5Ogu80xkr4oZPf8X7w9buByJ9KudhRZ0N2P-zdjsNZnt7gqFlO9sZnPRJzO9qIfq3ZOjQHe5nAz7gV_y5P_dbCO3fz8H_9xI8K4T-GUE8oaL6HkLmQLVGXpv37A5afh2mC60rj5QeSun7QaDdl80KaVI2xO4jrBZLj5OzDR6IIyDaw3x3db45LY8TEXXPRIBUbaZIeETTRDjYWeP1ZuK3UOiJlUe3onjfwCt6s-bxZXqRpWKgQiRi2svkJAuAvG8LvTGUE7z8cpZhMjg57nw1ZotOsuU0uR8dzXtGRQ7dv5J_5fuqnFvwawy5djIwhUJnUSa62-iZznYlijTGsNCjTyblB4MJvFk2cFwE5xLJldIB5VmKe7A_x9R36UUu7Lkce__zMlKUELp3LSE2S6YAG5B4-mkOHdWkHdvrpJdGOL8jM1gR6fYO4dqJb5_JdeNUlK5)
+
+---
+### 可视化结果展示链接
+https://www.bilibili.com/video/BV12u411f7j1?p=2

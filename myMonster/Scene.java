@@ -74,7 +74,7 @@ public class Scene {
 
         Line queue;
         if(ISMATRIX){
-            queue = new Line(COUNT);//TODO:implement real matrix;
+            queue = new Matrix(COUNT);
         }else {
             queue = new Line(COUNT);
         }
