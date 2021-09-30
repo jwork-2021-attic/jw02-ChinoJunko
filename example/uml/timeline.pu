@@ -1,0 +1,19 @@
+@startuml timeline
+title	老爷爷排齐七葫芦
+actor	老爷爷    as Geezer
+actor   一排  as Line #Purple
+actor	排序器    as Sorter   #Blue
+queue   葫芦  as Gourd    #Green
+entity	计划    as Plan #White
+
+Line -> Gourd : 装入
+note left:  七个葫芦
+
+Geezer -> Sorter : 想到方法
+
+Sorter -> Plan  : 得到解决步骤
+
+Plan -> Geezer : 记住步骤
+Geezer -> Gourd : 排好葫芦
+
+@enduml
