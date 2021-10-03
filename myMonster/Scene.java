@@ -74,7 +74,7 @@ public class Scene {
 
         Line queue;
         if(ISMATRIX){
-            queue = new Matrix(COUNT);
+            queue = new Matrix(COUNT/16,16);
         }else {
             queue = new Line(COUNT);
         }
